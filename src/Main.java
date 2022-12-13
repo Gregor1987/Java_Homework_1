@@ -13,7 +13,7 @@ public class Main {
                 start--;
             }
 
-            newString.append(s.substring(start + 1, end + 1));
+            newString.append(s, start + 1, end + 1);
             newString.append(' ');
             end = start - 1;
         }
